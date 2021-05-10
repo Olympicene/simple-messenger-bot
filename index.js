@@ -19,6 +19,7 @@ login({appState: JSON.parse(fs.readFileSync('database/appstate.json', 'utf8'))},
 
     api.setOptions({
         listenEvents: true,
+        selfListen: true,
         forceLogin: true,
     })
 
