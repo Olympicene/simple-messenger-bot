@@ -71,5 +71,5 @@ edit response.json
 }
 ```
 The key is the trigger for the bot and the value is the response it will type back.<br>
-<img src="https://i.imgur.com/tKkM8JM.png">
+<img src="https://i.imgur.com/bfRyxQE.png">
   
