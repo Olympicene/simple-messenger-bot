@@ -3,7 +3,7 @@
 
 This is a simple Facebook messenger chat bot. 
 It is easy to customize, all responses and triggers are assigned in a json file.
-You can also specify which threads it will work in and the delay between each command in the config.js.
+You can also specify which threads it will work in and the delay between each command in the [config.js](database/config.js).
 
 
 ## Requirements
@@ -25,16 +25,16 @@ login via username and password is impossible. The workaround involves using coo
 in this [issue](https://github.com/Schmavery/facebook-chat-api/issues/870#issuecomment-820762472).
 It's not a long process so I'll summarize it here.
 
-- Install the puppeter chrome extension
+- Install a puppeter chrome extension (I use [this one](https://github.com/ktty1220/export-cookie-for-puppeteer))
 - Login to __facebook.com__ NOT messenger.com
 - use puppeter to retrieve the cookies as a JSON file
-- rename the file to appstate.json and put it in ./database/
-- for every cookie replace "name" with "key" (just find and replace all "name" with "key")
+- rename the file to appstate.json and put it in [database](database)
+- for every cookie replace "name" with "key" (just find and replace all instances of "name" with "key")
 
-If your appstate.json looks like example-appstate.json then you did it right.
+If your appstate.json looks like [example-appstate.json](database/example-appstate.json) then you did it right.
 
 ## Config
-Next you need to edit config.js
+Next you need to edit [config.js](database/config.js)
 
 exports.timeout_milliseconds is self explanatory, its  how long the bot will wait before it accepts the next command.
 
