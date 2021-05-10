@@ -1,0 +1,22 @@
+{
+  "name": "simple-messenger-bot",
+  "version": "1.0.0",
+  "description": "A simple chat bot for Facebook messenger",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olympicene/simple-messenger-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olympicene/simple-messenger-bot/issues"
+  },
+  "homepage": "https://github.com/Olympicene/simple-messenger-bot#readme",
+  "dependencies": {
+    "facebook-chat-api": "^1.8.0"
+  }
+}
