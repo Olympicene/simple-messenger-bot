@@ -48,11 +48,12 @@ exports.allowed_threads contains a list of allowed threads the bot can respond t
 
 ```
 exports.allowed_threads = [
-    '2401681243197992', 
+    '4341136652627262', 
 ]
 
 ```
-ThreadIDs can be found at the end of urls when you access messenger via browser.
+ThreadIDs can be found at the end of urls when you access messenger via browser. <br>
+<img src="https://i.imgur.com/wSBxeCD.png">
 
 ## Usage
 
