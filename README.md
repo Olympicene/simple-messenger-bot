@@ -41,7 +41,6 @@ exports.timeout_milliseconds is self explanatory, its  how long the bot will wai
 ```
 //time in between commands
 exports.timeout_milliseconds = 1000
-
 ```
 
 exports.allowed_threads contains a list of allowed threads the bot can respond to.
@@ -50,7 +49,6 @@ exports.allowed_threads contains a list of allowed threads the bot can respond t
 exports.allowed_threads = [
     '4341136652627262', 
 ]
-
 ```
 ThreadIDs can be found at the end of urls when you access messenger via browser. <br>
 <img src="https://i.imgur.com/wSBxeCD.png">
@@ -61,7 +59,6 @@ After you finished Login and Config just enter
 
 ```
 npm test
-
 ```
 ## Customization
 
