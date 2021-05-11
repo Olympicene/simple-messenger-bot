@@ -1,5 +1,7 @@
 
 # simple-messenger-bot
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 
 This is a simple Facebook messenger chat bot. 
 It is easy to customize, all responses and triggers are assigned in a json file.
