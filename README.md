@@ -70,7 +70,6 @@ edit response.json
     "goodbye": "goodbye nice to meet you"
 }
 ```
-
-The key is the trigger for the bot and the value is the response it will type back.
-
+The key is the trigger for the bot and the value is the response it will type back.<br>
+<img src="https://i.imgur.com/bfRyxQE.png">
   
