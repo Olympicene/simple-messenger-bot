@@ -31,8 +31,8 @@ It's not a long process so I'll summarize it here.
   -  (UPDATE: the chrome store page link is a 404 use firefox or unpack [my crx file](https://www.mediafire.com/file/hguaj9npk9ymyul/0.2.0_0.crx/file))
 - Login to __facebook.com__ NOT messenger.com
 - use puppeter to retrieve the cookies as a JSON file
-- rename the file to appstate.json and put it in [database](database)
-- for every cookie replace "name" with "key" (just find and replace all instances of "name" with "key")
+- rename the file to appstate.json and put it in [simple-messenger-bot/database](database)
+- for every cookie object replace "name" with "key" (just find and replace all instances of "name" with "key")
 
 If your appstate.json looks like [example-appstate.json](database/example-appstate.json) then you did it right.
 
