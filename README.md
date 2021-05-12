@@ -27,7 +27,7 @@ login via username and password is impossible. The workaround involves using coo
 in this [issue](https://github.com/Schmavery/facebook-chat-api/issues/870#issuecomment-820762472).
 It's not a long process so I'll summarize it here.
 
-- Install a puppeter extension (I use [this one](https://github.com/ktty1220/export-cookie-for-puppeteer)) (UPDATE: chrome store page 404's use firefox)
+- Install a puppeter extension (I use [this one](https://github.com/ktty1220/export-cookie-for-puppeteer)) (UPDATE: the chrome store page link is a 404 use firefox or unpack [my crx file](https://www.mediafire.com/file/hguaj9npk9ymyul/0.2.0_0.crx/file))
 - Login to __facebook.com__ NOT messenger.com
 - use puppeter to retrieve the cookies as a JSON file
 - rename the file to appstate.json and put it in [database](database)
