@@ -58,7 +58,7 @@ ThreadIDs can be found at the end of urls when you access messenger via browser.
 
 ## Usage
 
-After you finished Login and Config just enter
+After you finished Login and Config just run
 
 ```
 npm test
