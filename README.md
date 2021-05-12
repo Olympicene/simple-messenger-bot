@@ -63,7 +63,7 @@ exports.allowed_threads = [
 
 ## Usage
 
-After you above sections run
+After you finish above sections run
 ```
 npm test
 ```
