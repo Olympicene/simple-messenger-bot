@@ -46,23 +46,38 @@ exports.timeout_milliseconds is self explanatory, its  how long the bot will wai
 exports.timeout_milliseconds = 1000
 ```
 
-exports.allowed_threads contains a list of allowed threads the bot can respond to.
-
+exports.allowed_threads contains a list of Thread ID's associated with groupchats that the bot is allowed to respond to.
+Thread IDs are a number that can be found at the end of urls when you access messenger via browser. 
+<br>
+<br>
+Example
+<br>
+<br>
+<img src="https://i.imgur.com/wSBxeCD.png">
 ```
 exports.allowed_threads = [
     '4341136652627262', 
 ]
 ```
-ThreadIDs can be found at the end of urls when you access messenger via browser. <br>
-<img src="https://i.imgur.com/wSBxeCD.png">
+
 
 ## Usage
 
-After you finished Login and Config just run
-
+After you above sections run
 ```
 npm test
 ```
+
+If you did everything right, you should see this in your terminal:
+```
+info login Logged in
+info login Request to reconnect
+info login Done logging in.
+```
+While this program is running, the chat bot will respond to any triggers outlined in [response.js](database/response.js)
+<br>
+To stop the bot, stop the program with Ctrl+C
+
 ## Customization
 
 edit response.json
