@@ -74,7 +74,7 @@ info login Logged in
 info login Request to reconnect
 info login Done logging in.
 ```
-While this program is running, the chat bot will respond to any triggers outlined in [response.js](database/response.js)
+While this program is running, the chat bot will respond to any triggers outlined in [response.json](database/response.json)
 <br>
 To stop the bot, stop the program with Ctrl+C
 
