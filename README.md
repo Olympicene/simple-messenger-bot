@@ -34,7 +34,7 @@ It's not a long process so I'll summarize it here.
 - rename the file to appstate.json and put it in [simple-messenger-bot/database](database)
 - for every cookie object replace "name" with "key" (just find and replace all instances of "name" with "key")
 
-If your appstate.json looks like [example-appstate.json](database/example-appstate.json) then you did it right.
+If your appstate.json somewhat looks like [example-appstate.json](database/example-appstate.json) then you did it right.
 
 ## Config
 Next you need to edit [config.js](database/config.js)
