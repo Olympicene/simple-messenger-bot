@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Olympicene/simple-messenger-bot#readme",
   "dependencies": {
-    "facebook-chat-api": "^1.8.0"
+    "facebook-chat-api": "github:kb2ateam/facebook-chat-api"
   }
 }

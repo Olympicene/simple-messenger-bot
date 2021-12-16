@@ -15,10 +15,10 @@ login(
     if (err) return console.error(err);
 
     //store most recent cookie in database
-    fs.writeFileSync(
-      databaseDir + "/appstate.json",
-      JSON.stringify(api.getAppState())
-    );
+    //fs.writeFileSync(
+    //  databaseDir + "/appstate.json",
+    //  JSON.stringify(api.getAppState())
+    //);
 
     api.setOptions({
       listenEvents: true,
