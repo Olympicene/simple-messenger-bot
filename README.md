@@ -10,7 +10,7 @@ You can also specify which threads it will work in and the delay between each co
 
 ## Requirements
 
-- node >= 6.0
+- node >= 17.0
 
 ## Installation 
 
